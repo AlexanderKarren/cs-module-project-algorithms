@@ -3,7 +3,8 @@ Input: an integer
 Returns: an integer
 '''
 
-
+# Time complexity: O(n)
+# Space complexity: O(n)
 def eating_cookies(n, cache=None):
     # base cases
     if n < 0:

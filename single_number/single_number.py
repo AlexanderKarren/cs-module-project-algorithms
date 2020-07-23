@@ -2,10 +2,15 @@
 Input: a List of integers where every int except one shows up twice
 Returns: an integer
 '''
+
+
+# Time complexity: O(n)
+# Space complexity: O(1)
 def single_number(arr):
     result = arr[0]
     for i in range(1, len(arr)):
         result = result ^ arr[i]
+        print(result)
 
     return result
 

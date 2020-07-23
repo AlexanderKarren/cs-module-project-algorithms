@@ -18,4 +18,13 @@ def fib(n, cache=None):
     return cache[n]
 
 
+# def fib(n):
+#     fibs = [0, 1]
+#     count = 1
+#     while count < n:
+#         fibs.append((fibs[count] + fibs[count - 1]))
+#         count += 1
+#     return fibs[n]
+
+
 print("solution:", fib(4))
