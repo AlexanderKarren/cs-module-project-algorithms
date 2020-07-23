@@ -2,6 +2,8 @@
 Input: a List of integers
 Returns: a List of integers
 '''
+# Time complexity: O(n)
+# Space complexity: O(n)
 def product_of_all_other_numbers(arr):
     output = [1] * len(arr)
 
